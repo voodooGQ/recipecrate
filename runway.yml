@@ -1,0 +1,8 @@
+---
+deployments:
+  - modules:
+      - nameofmyfirstmodulefolder
+      - nameofmysecondmodulefolder
+      # - etc...
+    regions:
+      - us-east-1
