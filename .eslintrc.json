@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb/base", "plugin:promise/recommended"],
+  "plugins": ["promise"],
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "no-new": "warn",
+    "class-methods-use-this": "off",
+    "no-restricted-globals": "off",
+    "prefer-destructuring": "off",
+    "import/prefer-default-export": "warn",
+    "import/no-absolute-path": "off",
+    "no-unused-vars": ["error", {"args": "none"}],
+    "indent": ["error", 2, {
+      "MemberExpression": "off",
+      "SwitchCase": 1
+    }]
+
+  }
+}
