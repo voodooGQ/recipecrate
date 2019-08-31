@@ -33,12 +33,12 @@ provider:
         forceExclude: aws-sdk
 
 functions:
-  hello:
-    handler: src/handlers/handler.hello
+  list:
+    handler: src/handlers/recipes.list
     events:
       - http:
           method: get
-          path: hello
+          path: recipes
 
 resources:
   Resources: ${file(./config/resources/${self:provider.stage}.yml)}
