@@ -1,0 +1,44 @@
+service:
+  name: recipecrate
+
+plugins:
+  - serverless-offline
+  - serverless-export-env
+  - serverless-plugin-export-endpoints
+  - serverless-webpack
+
+provider:
+  name: aws
+  stage: ${opt:stage, 'dev'}
+  runtime: nodejs10.x
+  resourceGroup: RecipeCrate
+  tags:
+    Environment: ${self:provider.stage}
+    TechOwner: Shane Smith
+    TechOwnerEmail: ssmith@onica.com
+    Backup: true
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - lambda:InvokeFunction
+      Resource: '*'
+  region: ${opt:region, 'us-east-1'}
+  environment:
+    RECIPE_TABLE: ${self:service}-ddb-recipes-${self:provider.stage}
+    DDB_RETENTION: Delete
+
+  custom:
+    webpack:
+      includeModules:
+        forceExclude: aws-sdk
+
+functions:
+  hello:
+    handler: src/handlers/handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+
+resources:
+  Resources: ${file(./config/resources/${self:provider.stage}.yml)}

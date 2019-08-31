@@ -1,0 +1,1 @@
+RecipeDDBTable: ${file(./config/resources/dynamodb/recipes.yml)}
