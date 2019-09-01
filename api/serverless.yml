@@ -39,4 +39,4 @@ functions:
   list: ${file(./src/recipes/list/list.function.yml)}
 
 resources:
-  Resources: ${file(./config/resources/${self:provider.stage}.yml)}
+  Resources: ${file(./resources-${self:provider.stage}.yml)}
