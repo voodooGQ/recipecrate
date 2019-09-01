@@ -34,11 +34,13 @@ provider:
 
 functions:
   list:
-    handler: src/handlers/recipes.list
+    handler: src/list/index.default
+    role: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointListRole
     events:
       - http:
           method: get
           path: recipes
+          cors: true
 
 resources:
   Resources: ${file(./config/resources/${self:provider.stage}.yml)}

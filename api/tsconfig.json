@@ -1,12 +1,19 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "lib": ["es2017"],
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
     "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "baseUrl": "src",
+    "rootDirs": [ "src", "test" ],
     "sourceMap": true,
-    "target": "es2017",
-    "outDir": "lib"
-  },
-  "exclude": ["node_modules"]
+    "declaration": false,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "target": "es6",
+    "typeRoots": [ "node_modules/@types", "@types" ],
+    "lib": [ "es6" ]
+  }
 }

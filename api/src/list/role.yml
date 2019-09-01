@@ -1,0 +1,29 @@
+Type: AWS::IAM::Role
+Properties:
+  Path: /
+  RoleName: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointListRole
+  AssumeRolePolicyDocument:
+    Version: '2012-10-17'
+    Statement:
+      - Effect: Allow
+        Action: sts:AssumeRole
+        Principal:
+          Service: lambda.amazonaws.com
+  Policies:
+    - PolicyName: CreateAndWriteToLogStream
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Action:
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+            Resource: '*'
+    - PolicyName: ListAccounts
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Action:
+              - dynamodb:*
+            Resource: '*' # @TODO: Narrow down
