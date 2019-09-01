@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import imageHero from './images/hero.png';
-
+import RecipeList from './components/recipe/list/list.component';
 
 export default class App extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ export default class App extends Component {
           <img src={imageHero}/>
         </div>
         <div className='tagline'>
-          Resume Site
+          <RecipeList />
         </div>
       </div>
     );

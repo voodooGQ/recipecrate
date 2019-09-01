@@ -1,0 +1,9 @@
+{
+ "add": {},
+ "list": {
+  "GET": "https://qxj2a7tfel.execute-api.us-east-1.amazonaws.com/dev/recipes"
+ },
+ "get": {
+  "GET": "https://qxj2a7tfel.execute-api.us-east-1.amazonaws.com/dev/recipes/{{slug}}"
+ }
+}
