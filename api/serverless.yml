@@ -34,9 +34,9 @@ provider:
 
 functions:
   # Internal
-  add: ${file(./src/accounts/add/add.function.yml)}
+  add: ${file(./src/recipes/add/add.function.yml)}
   # API
-  list: ${file(./src/accounts/list/list.function.yml)}
+  list: ${file(./src/recipes/list/list.function.yml)}
 
 resources:
   Resources: ${file(./config/resources/${self:provider.stage}.yml)}
