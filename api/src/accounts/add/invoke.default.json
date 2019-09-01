@@ -1,0 +1,28 @@
+{
+  "body": {
+    "Title": "Tzatziki Sauce",
+    "Directions": "De-seed cucumber with a spoon and chop fine along with the garlic. Mix everything together into a bowl, allow to sit for at least 2 hours before using but can be made 2 to 3 days in advance for a stronger flavor. *Can utilize regular yogurt instead of of Greek so long as you omit the milk*",
+    "Ingredients": {
+      "For The Sauce": [
+        "1 tsp Dill Weed",
+        "1 tsp Kosher Salt",
+        "100g Cucumber",
+        "15g Lemon Juice",
+        "2 tbls Tahini",
+        "215g Greek Yogurt",
+        "4g Garlic",
+        "70ml Skim or Almond Milk"
+      ]
+    },
+    "Tags": [
+      "cucumber",
+      "greek",
+      "sauce",
+      "yogurt"
+    ],
+    "Yield": "1.5 cups",
+    "Calories": "12 calories per tbls"
+  },
+  "pathParameters": { },
+  "queryStringParameters": { }
+}

@@ -1,7 +1,7 @@
 Type: AWS::IAM::Role
 Properties:
   Path: /
-  RoleName: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointListRole
+  RoleName: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointAddRole
   AssumeRolePolicyDocument:
     Version: '2012-10-17'
     Statement:
@@ -25,5 +25,5 @@ Properties:
         Statement:
           - Effect: Allow
             Action:
-              - dynamodb:Scan
+              - dynamodb:PutItem
             Resource: '*' # @TODO: Narrow down

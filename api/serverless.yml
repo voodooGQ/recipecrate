@@ -33,6 +33,9 @@ provider:
         forceExclude: aws-sdk
 
 functions:
+  # Internal
+  add: ${file(./src/accounts/add/add.function.yml)}
+  # API
   list: ${file(./src/accounts/list/list.function.yml)}
 
 resources:

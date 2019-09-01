@@ -1,2 +1,3 @@
 RecipeDDBTable: ${file(./config/resources/dynamodb/recipes.yml)}
 DevEndpointListRole: ${file(./src/accounts/list/list.role.yml)}
+DevEndpointAddRole: ${file(./src/accounts/add/add.role.yml)}

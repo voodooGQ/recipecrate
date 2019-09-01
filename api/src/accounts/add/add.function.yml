@@ -1,0 +1,3 @@
+---
+handler: src/accounts/add/handler.default
+role: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointAddRole
