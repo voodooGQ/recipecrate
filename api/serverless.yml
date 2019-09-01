@@ -33,14 +33,7 @@ provider:
         forceExclude: aws-sdk
 
 functions:
-  list:
-    handler: src/list/index.default
-    role: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointListRole
-    events:
-      - http:
-          method: get
-          path: recipes
-          cors: true
+  list: ${file(./src/list/function.yml)}
 
 resources:
   Resources: ${file(./config/resources/${self:provider.stage}.yml)}
