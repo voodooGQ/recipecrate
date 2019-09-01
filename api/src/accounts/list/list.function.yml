@@ -1,5 +1,5 @@
 ---
-handler: src/list/index.default
+handler: src/accounts/list/handlers.default
 role: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointListRole
 events:
   - http:

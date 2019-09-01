@@ -33,7 +33,7 @@ provider:
         forceExclude: aws-sdk
 
 functions:
-  list: ${file(./src/list/function.yml)}
+  list: ${file(./src/accounts/list/list.function.yml)}
 
 resources:
   Resources: ${file(./config/resources/${self:provider.stage}.yml)}
