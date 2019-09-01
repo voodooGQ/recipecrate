@@ -1,3 +1,4 @@
 RecipeDDBTable: ${file(./src/recipes/db.yml)}
 DevEndpointListRole: ${file(./src/recipes/list/list.role.yml)}
 DevEndpointAddRole: ${file(./src/recipes/add/add.role.yml)}
+DevEndpointGetRole: ${file(./src/recipes/get/get.role.yml)}

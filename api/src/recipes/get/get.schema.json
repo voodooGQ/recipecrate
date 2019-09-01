@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "pathParameters": {
+      "type": "object",
+      "properties": {
+        "slug": { "type": "string" }
+      },
+      "required": [ "slug" ]
+    }
+  }
+}

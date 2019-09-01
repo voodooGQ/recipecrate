@@ -28,6 +28,21 @@ export default class DynamoDBWrapper extends BaseWrapper {
     );
   }
 
+  public async getRecipe(slug: string) {
+    const params = {
+      ExpressionAttributeValues: { ':v1': { S: slug } },
+      KeyConditionExpression: 'Slug = :v1',
+      TableName: this.table,
+    };
+
+    this.logger.debug(params);
+
+    return this.service.query(params).promise().then(
+      (data: any) => data.Items.map((item: any) => Converter.unmarshall(item)),
+      (err: any) => { throw this.defaultError(err); },
+    );
+  }
+
   public async addRecipe(recipe: any) {
     if (!recipe.Title) { throw this.defaultError('A title for the recipe must be supplied'); }
     recipe.Slug = this.slugify(recipe.Title);
@@ -35,6 +50,7 @@ export default class DynamoDBWrapper extends BaseWrapper {
     const params = {
       Item: Converter.marshall(recipe),
       TableName: this.table,
+      ReturnConsumedCapacity: 'TOTAL',
     };
 
     return this.service.putItem(params).promise().then(
