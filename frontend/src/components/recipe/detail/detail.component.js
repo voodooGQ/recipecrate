@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 
 export default class RecipeList extends React.Component {
   static propTypes = {
-    title: PropTypes.string.isRequired,
+    recipe: PropTypes.object.isRequired,
   }
 
   render() {
-    return <li>{this.props.title}</li>;
+    const recipe = this.props.recipe;
+    return (
+      <span>{recipe.Title}</span>
+    );
   }
 }

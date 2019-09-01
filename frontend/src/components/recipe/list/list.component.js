@@ -3,13 +3,7 @@ import RecipeDetail from '../detail/detail.component';
 
 
 export default class RecipeList extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      recipes: [],
-    };
-  }
+  state = { recipes: [] };
 
   componentDidMount() {
     return fetch('https://qxj2a7tfel.execute-api.us-east-1.amazonaws.com/dev/recipes')
@@ -26,7 +20,7 @@ export default class RecipeList extends Component {
 
     return (
       <ul>
-        { recipes.map((recipe, key) => <RecipeDetail key={key} title={recipe.Title} />) }
+        { recipes.map((recipe, key) => <li key={key}><RecipeDetail recipe={recipe} /></li>) }
       </ul>
     );
   }
