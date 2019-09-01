@@ -7,17 +7,11 @@
     "clean": "rm -rf .serverless && rm -rf node_modules && rm -rf package-lock.json",
     "test": "LOG_LEVEL=NONE node_modules/.bin/mocha -- --file test/setup.ts --timeout 5000 -r ts-node/register ./test/**/*.test.ts",
     "test:watch": "npm run test -- --watch-extensions ts --watch",
-    "tslint": "tslint --project ./tsconfig.json",
-    "core:test": "npm run test",
-    "core:tslint": "npm run tslint",
+    "lint": "tslint --project ./tsconfig.json",
     "build": "sls webpack",
-    "lint": "jshint .",
     "validate": "npm ls"
   },
-  "pre-commit": [
-    "accounts:test",
-    "accounts:tslint"
-  ],
+  "pre-commit": [ "lint" ],
   "devDependencies": {
     "@types/aws-lambda": "^8.10.31",
     "@types/chai": "^4.1.7",
