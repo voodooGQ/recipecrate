@@ -9,7 +9,9 @@ export default class RecipeList extends React.Component {
   render() {
     const recipe = this.props.recipe;
     return (
-      <span>{recipe.Title}</span>
+      <div className="recipe-container">
+        <span>{recipe.Title}</span>
+      </div>
     );
   }
 }

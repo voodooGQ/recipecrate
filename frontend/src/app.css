@@ -22,14 +22,14 @@ div {
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #000000;
+  color: #f0f0f0;
   word-wrap: break-word;
   letter-spacing: 0.25px;
 }
 
 html,
 body {
-  background: #000000;
+  background: #222222
 }
 
 .container {

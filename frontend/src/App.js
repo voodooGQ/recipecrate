@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import imageHero from './images/hero.png';
-import RecipeList from './components/recipe/list/list.component';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './components/pages/home/home.component';
 
 export default class App extends Component {
   constructor(props) {
@@ -10,14 +10,14 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className='container'>
-        <div className='hero'>
-          <img src={imageHero}/>
+      <Router>
+        <div>
+          <Route exact path="/" component={Home} />
         </div>
-        <div className='tagline'>
-          <RecipeList />
+
+        <div className='container'>
         </div>
-      </div>
+      </Router>
     );
   }
 }
