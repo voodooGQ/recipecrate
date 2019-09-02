@@ -16,11 +16,10 @@ export default class RecipeList extends Component {
 
   render() {
     const recipes = this.state.recipes || [];
-    console.log(this.state);
 
     return (
       <ul>
-        { recipes.map((recipe, key) => <li key={key}><RecipeDetail recipe={recipe} /></li>) }
+        { recipes.map((recipe, key) => <li key={key}>{recipe.Title}</li>) }
       </ul>
     );
   }
