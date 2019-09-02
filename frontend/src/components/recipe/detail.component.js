@@ -27,6 +27,7 @@ export default class RecipeDetail extends Component {
       <div className="recipe-container">
         <span>{this.state.recipe.Title}</span>
         {
+          // eslint-disable-next-line max-len
           Object.keys(ingredients).map(key => <IngredientsSection key={key} title={key} ingredients={ingredients[key]}></IngredientsSection>)
         }
         <div className="recipe-directions">{ this.state.recipe.Directions || '' } </div>

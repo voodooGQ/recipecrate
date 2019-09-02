@@ -8,9 +8,7 @@ export default class RecipeList extends Component {
   componentDidMount() {
     return fetch('https://qxj2a7tfel.execute-api.us-east-1.amazonaws.com/dev/recipes')
       .then((response => response.json()))
-      .then((data) => {
-        return this.setState({ recipes: data });
-      })
+      .then(data => this.setState({ recipes: data }))
       .catch(console.log);
   }
 
