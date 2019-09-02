@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import fetch from 'isomorphic-fetch';
 
 
@@ -17,7 +18,7 @@ export default class RecipeList extends Component {
 
     return (
       <ul>
-        { recipes.map((recipe, key) => <li key={key}>{recipe.Title}</li>) }
+        { recipes.map((recipe, key) => <li key={key}><Link to={`/recipes/${recipe.Slug}`}>{recipe.Title}</Link></li>) }
       </ul>
     );
   }
