@@ -8,6 +8,7 @@ export default class RecipeDetail extends Component {
   state = { recipe: {} };
 
   static propTypes = {
+    history: PropTypes.object,
     slug: PropTypes.string.isRequired,
     recipe: PropTypes.object,
   }
