@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import RecipeDetail from '../detail/detail.component';
 
 
 export default class RecipeList extends Component {

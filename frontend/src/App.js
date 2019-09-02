@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/pages/home/home.component';
-import Recipe from './components/pages/recipe/recipe.component';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HomePage from './components/pages/home.component';
+import RecipePage from './components/pages/recipe.component';
 
 export default class App extends Component {
   constructor(props) {
@@ -13,9 +13,9 @@ export default class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/recipes" component={Home} />
-          <Route path="/recipes/:slug" component={Recipe} />
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/recipes" component={HomePage} />
+          <Route path="/recipes/:slug" component={RecipePage} />
         </div>
 
         <div className='container'>
