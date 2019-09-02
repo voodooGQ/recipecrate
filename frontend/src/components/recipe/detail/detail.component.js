@@ -21,12 +21,14 @@ export default class RecipeDetail extends Component {
 
   render() {
     const ingredients = this.state.recipe.Ingredients || {};
+
     return (
       <div className="recipe-container">
         <span>{this.state.recipe.Title}</span>
         {
           Object.keys(ingredients).map(key => <IngredientsSection key={key} title={key} ingredients={ingredients[key]}></IngredientsSection>)
         }
+        <div className="recipe-directions">{ this.state.recipe.Directions || '' } </div>
       </div>
     );
   }
