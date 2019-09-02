@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { isEmpty } from 'lodash';
+import fetch from 'isomorphic-fetch';
 import IngredientsSection from './ingredients/section.component';
 
 export default class RecipeDetail extends Component {
