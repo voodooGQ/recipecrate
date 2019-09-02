@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { isEmpty } from 'lodash';
+import IngredientsSection from '../ingredients/section/section.component';
 
-export default class RecipeDetail extends React.Component {
+export default class RecipeDetail extends Component {
   state = { recipe: {} };
 
   static propTypes = {
@@ -19,9 +20,13 @@ export default class RecipeDetail extends React.Component {
   }
 
   render() {
+    const ingredients = this.state.recipe.Ingredients || {};
     return (
       <div className="recipe-container">
         <span>{this.state.recipe.Title}</span>
+        {
+          Object.keys(ingredients).map(key => <IngredientsSection key={key} title={key} ingredients={ingredients[key]}></IngredientsSection>)
+        }
       </div>
     );
   }
