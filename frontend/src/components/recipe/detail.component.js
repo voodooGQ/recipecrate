@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { isEmpty } from 'lodash';
 import fetch from 'isomorphic-fetch';
 import IngredientsSection from './ingredients/section.component';
+import './detail.scss';
+
 
 export default class RecipeDetail extends Component {
   state = { recipe: {} };
@@ -26,7 +28,7 @@ export default class RecipeDetail extends Component {
 
     return (
       <div className="recipe-container">
-        <span>{this.state.recipe.Title}</span>
+        <h1>{this.state.recipe.Title}</h1>
         {
           // eslint-disable-next-line max-len
           Object.keys(ingredients).map(key => <IngredientsSection key={key} title={key} ingredients={ingredients[key]}></IngredientsSection>)

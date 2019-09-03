@@ -11,7 +11,9 @@
     "build": "sls webpack",
     "validate": "npm ls"
   },
-  "pre-commit": [ "lint" ],
+  "pre-commit": [
+    "lint"
+  ],
   "devDependencies": {
     "@types/aws-lambda": "^8.10.31",
     "@types/chai": "^4.1.7",
@@ -68,6 +70,7 @@
     "nock": "^10.0.6",
     "node-fetch": "^2.6.0",
     "request": "^2.88.0",
+    "sass": "^1.22.10",
     "uuid": "^3.3.2",
     "winston": "^3.2.1"
   },
