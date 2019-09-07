@@ -31,10 +31,13 @@ export default class RecipeDetail extends Component {
     return (
       <div className="recipe-container">
         <h1>{this.state.recipe.Title}</h1>
+        <h2>Ingredients</h2>
         {
           // eslint-disable-next-line max-len
           Object.keys(ingredients).map(key => <IngredientsSection key={key} title={key} ingredients={ingredients[key]}></IngredientsSection>)
         }
+
+        <h2>Directions</h2>
         {
           // eslint-disable-next-line max-len
           Object.keys(directions).map(key => <DirectionsSection key={key} title={key} directions={directions[key]}></DirectionsSection>)
