@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { isEmpty } from 'lodash';
 import fetch from 'isomorphic-fetch';
 import IngredientsSection from './ingredients/section.component';
+import DirectionsSection from './directions/section.component';
 import './detail.scss';
 
 
@@ -25,6 +26,7 @@ export default class RecipeDetail extends Component {
 
   render() {
     const ingredients = this.state.recipe.Ingredients || {};
+    const directions = this.state.recipe.Directions || {};
 
     return (
       <div className="recipe-container">
@@ -33,7 +35,10 @@ export default class RecipeDetail extends Component {
           // eslint-disable-next-line max-len
           Object.keys(ingredients).map(key => <IngredientsSection key={key} title={key} ingredients={ingredients[key]}></IngredientsSection>)
         }
-        <div className="recipe-directions">{ this.state.recipe.Directions || '' } </div>
+        {
+          // eslint-disable-next-line max-len
+          Object.keys(directions).map(key => <DirectionsSection key={key} title={key} directions={directions[key]}></DirectionsSection>)
+        }
       </div>
     );
   }
