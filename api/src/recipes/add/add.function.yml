@@ -1,3 +1,0 @@
----
-handler: src/recipes/add/handler.default
-role: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointAddRole

@@ -1,9 +1,0 @@
-name: Recipecrate
-
-ui:
-  component: '@serverless/website'
-  inputs:
-    code:
-      src: dist
-      hook: npm run build
-    # domain: www.serverlessmetrics.com # Register a custom domain on AWS Route 53 to enable this, AWS Cloudfront and SSL.

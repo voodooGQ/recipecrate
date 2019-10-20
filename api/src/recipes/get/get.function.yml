@@ -1,8 +1,0 @@
----
-handler: src/recipes/get/handler.default
-role: ${file(env-${self:provider.stage}.yml):HANDLE}EndpointGetRole
-events:
-  - http:
-      method: get
-      path: recipes/{slug}
-      cors: true

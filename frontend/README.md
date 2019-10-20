@@ -1,4 +1,0 @@
-Serverless Website Template
-===================
-
-{{ @TODO }}
