@@ -1,6 +1,6 @@
 name: Recipecrate
 
-website:
+ui:
   component: '@serverless/website'
   inputs:
     code:

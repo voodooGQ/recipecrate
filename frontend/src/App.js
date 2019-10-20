@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, BrowserHistory } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './components/pages/home.component';
 import RecipePage from './components/pages/recipe.component';
+// Image loading
+require('./images/recipes/index');
+
 
 import './styles/normalize.scss';
 import './styles/skeleton.scss';
@@ -15,7 +18,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <Router history={BrowserHistory}>
+      <Router>
         <div className="container">
           <Route exact path="/" component={HomePage} />
           <Route exact path="/recipes" component={HomePage} />

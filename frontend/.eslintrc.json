@@ -1,5 +1,6 @@
 {
   "parser": "babel-eslint",
+  "esversion": "9",
   "extends": [
     "airbnb/base",
     "plugin:promise/recommended",
