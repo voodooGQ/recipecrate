@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './components/pages/home.component';
 import RecipePage from './components/pages/recipe.component';
 
-import './styles/normalize.scss';
-import './styles/skeleton.scss';
 import './styles/app.scss';
 
 export default class App extends Component {
@@ -16,7 +14,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container">
+        <div className="container site-container">
           <Route exact path="/" component={HomePage} />
           <Route exact path="/recipes" component={HomePage} />
           <Route path="/recipes/:slug" component={RecipePage} />

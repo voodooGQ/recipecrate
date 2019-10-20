@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
+
 import './detail.scss';
 
 export default class RecipeDetail extends Component {
@@ -38,8 +39,16 @@ export default class RecipeDetail extends Component {
 
     return (
       <div className="recipe-container">
-        {image && <img src={image} alt={this.props.slug} />}
-        {recipe && <ReactMarkdown source={recipe} />}
+        <div class="row image-container vr">
+          <div class="columns 12">
+            {image && <img src={image} alt={this.props.slug} />}
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns 12">
+            {recipe && <ReactMarkdown source={recipe} />}
+          </div>
+        </div>
       </div>
     );
   }
