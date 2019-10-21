@@ -27,6 +27,24 @@
     ]
   },
   {
+    "Title": "Cinnamon Raisin Swirl Bread",
+    "Slug": "cinnamon-raisin-swirl-bread",
+    "Categories": [
+      "bread",
+      "baking",
+      "desert"
+    ]
+  },
+  {
+    "Title": "Cinnamon Roll Bread",
+    "Slug": "cinnamon-roll-bread",
+    "Categories": [
+      "bread",
+      "baking",
+      "desert"
+    ]
+  },
+  {
     "Title": "English Muffin Bread",
     "Slug": "english-muffin-bread",
     "Categories": [

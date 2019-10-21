@@ -11,7 +11,6 @@
 - 1/2 tsp kosher salt
 - Pinch nutmeg
 
-
 ## Instructions
 
 1. Combine all ingredients in an instant pot
@@ -19,7 +18,8 @@
 
 ---
 
-- Prep: 10m
-- Total: 10m
+- Prep: 5m
+- Cook: 25m
+- Total: 30m
 
-Yield: About 1 cup
+Yield: About 4 servings

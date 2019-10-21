@@ -45,7 +45,8 @@
 
 ---
 
-- Prep: 10m
-- Total: 10m
+- Prep: 15m
+- Cook: 20m
+- Total: 25m
 
-Yield: About 1 cup
+Yield: 4 to 5 servings
