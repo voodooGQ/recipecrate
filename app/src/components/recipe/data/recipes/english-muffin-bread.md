@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-## For the Dough
+### For the Dough
 
 - 550 grams all purpose flour
 - 540 grams sourdough starter
@@ -11,7 +11,10 @@
 - 390 grams dry milk powder
 - 2 tsp. instant yeast
 
-## For the Second Phase
+### For the Second Phase
+
+- 1 tbsp water
+- 1/4 tsp. baking soda
 
 ## Instructions
 

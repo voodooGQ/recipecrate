@@ -1,5 +1,13 @@
 [
   {
+    "Title": "Blueberry Steel Cut Oats",
+    "Slug": "blueberry-oats",
+    "Categories": [
+      "breakfast",
+      "instant-pot"
+    ]
+  },
+  {
     "Title": "Brown-Butter Chocolate Chip Cookies",
     "Slug": "brown-butter-chocolate-chip-cookies",
     "Categories": [
@@ -9,11 +17,30 @@
     ]
   },
   {
+    "Title": "Cheater's Chicken Pad Thai",
+    "Slug": "cheaters-chicken-pad-thai",
+    "Categories": [
+      "thai",
+      "asian",
+      "chicken",
+      "noodles"
+    ]
+  },
+  {
     "Title": "English Muffin Bread",
     "Slug": "english-muffin-bread",
     "Categories": [
       "bread",
       "baking"
+    ]
+  },
+  {
+    "Title": "Tzatziki Sauce",
+    "Slug": "tzatziki-sauce",
+    "Categories": [
+      "sauces",
+      "sides",
+      "greek"
     ]
   }
 ]
