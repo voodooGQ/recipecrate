@@ -45,11 +45,54 @@
     ]
   },
   {
+    "Title": "Cucumber Sour Cream Salad",
+    "Slug": "cucumber-sour-cream-salad",
+    "Categories": [
+      "salad",
+      "vegetable",
+      "side"
+    ]
+  },
+  {
     "Title": "English Muffin Bread",
     "Slug": "english-muffin-bread",
     "Categories": [
       "bread",
       "baking"
+    ]
+  },
+  {
+    "Title": "Firehouse Chili",
+    "Slug": "firehouse-chili",
+    "Categories": [
+      "stew",
+      "beef",
+      "pork"
+    ]
+  },
+  {
+    "Title": "Italian Bread",
+    "Slug": "italian-bread",
+    "Categories": [
+      "baking",
+      "bread"
+    ]
+  },
+  {
+    "Title": "Jaeger Sauce",
+    "Slug": "jaeger-sauce",
+    "Categories": [
+      "german",
+      "sauce",
+      "mushroom"
+    ]
+  },
+  {
+    "Title": "Sour Cream Raisin Squares",
+    "Slug": "sour-cream-raisin-squares",
+    "Categories": [
+      "deserts",
+      "bars"
     ]
   },
   {

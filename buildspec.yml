@@ -1,0 +1,20 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - npm i yarn@latest -g
+      - yarn add serverless -g
+  pre_build:
+    commands:
+      - yarn install
+      - cd app
+      - yarn install
+  build:
+    commands:
+      - yarn build
+  post_build:
+    commands:
+      - cd ..
+      - serverless --stage prod deploy

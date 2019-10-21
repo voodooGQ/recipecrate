@@ -1,0 +1,8 @@
+ProdRecipeCrateSiteBucket:
+  Type: AWS::S3::Bucket
+  Properties:
+    BucketName: ${self:provider.stage}-recipecrate-site-bucket
+    AccessControl: PublicRead
+    WebsiteConfiguration:
+      IndexDocument: index.html
+      ErrorDocument: error.html
