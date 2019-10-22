@@ -12,7 +12,4 @@ phases:
       - yarn build
       - cd ..
       - yarn install
-      - yarn add serverless -g
-  post_build:
-    commands:
-      - serverless --stage prod deploy
+      - yarn run serverless --stage prod deploy
