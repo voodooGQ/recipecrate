@@ -8,7 +8,6 @@ phases:
       - yarn add serverless -g
   pre_build:
     commands:
-      - yarn install
       - cd app
       - yarn install
   build:
@@ -17,4 +16,5 @@ phases:
   post_build:
     commands:
       - cd ..
+      - yarn install
       - serverless --stage prod deploy
