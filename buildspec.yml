@@ -6,15 +6,13 @@ phases:
     commands:
       - npm i yarn@latest -g
       - yarn add serverless -g
-  pre_build:
+  build:
     commands:
       - cd app
       - yarn install
-  build:
-    commands:
       - yarn build
-  post_build:
-    commands:
       - cd ..
       - yarn install
+  post_build:
+    commands:
       - serverless --stage prod deploy
