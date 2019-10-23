@@ -4,25 +4,25 @@
 
 ### Scones
 
-300g bread flour (all-purpose will also work)
-6g kosher salt
-3g cream of tartar
-5g baking soda
-100g white sugar
-75g cold butter grated
-310g sourdough starter
-10g poppy seeds
-2 lemons zested
-2 tsp lemon extract
-1/2 tsp vanilla extract
-Dash of nutmeg
+- 300g bread flour (all-purpose will also work)
+- 6g kosher salt
+- 3g cream of tartar
+- 5g baking soda
+- 100g white sugar
+- 75g cold butter grated
+- 310g sourdough starter
+- 10g poppy seeds
+- 2 lemons zested
+- 2 tsp lemon extract
+- 1/2 tsp vanilla extract
+- Dash of nutmeg
 
 ### Glaze
 
-1 cup powdered sugar
-1 lemons worth of juice
-1 tbsp milk
-1/2 tsp vanilla extract
+- 1 cup powdered sugar
+- 1 lemons worth of juice
+- 1 tbsp milk
+- 1/2 tsp vanilla extract
 
 ## Instructions
 
