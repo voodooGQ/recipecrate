@@ -1,5 +1,14 @@
 [
   {
+    "Title": "Asian Ribs",
+    "Slug": "asian-ribs",
+    "Categories": [
+      "asian",
+      "pork",
+      "instant-pot"
+    ]
+  },
+  {
     "Title": "Blueberry Steel Cut Oats",
     "Slug": "blueberry-oats",
     "Categories": [
@@ -24,6 +33,15 @@
       "asian",
       "chicken",
       "noodles"
+    ]
+  },
+  {
+    "Title": "Chicken Chili Verde",
+    "Slug": "chicken-chili-verde",
+    "Categories": [
+      "chicken",
+      "mexican",
+      "slow-cooker"
     ]
   },
   {
@@ -85,6 +103,16 @@
       "german",
       "sauce",
       "mushroom"
+    ]
+  },
+  {
+    "Title": "Shrimp Scampi",
+    "Slug": "shrimp-scampi",
+    "Categories": [
+      "seafood",
+      "shrimp",
+      "pasta",
+      "wine"
     ]
   },
   {
