@@ -20,7 +20,7 @@
     "Title": "Brown-Butter Chocolate Chip Cookies",
     "Slug": "brown-butter-chocolate-chip-cookies",
     "Categories": [
-      "desert",
+      "dessert",
       "baking",
       "chocolate"
     ]
@@ -50,7 +50,7 @@
     "Categories": [
       "bread",
       "baking",
-      "desert"
+      "dessert"
     ]
   },
   {
@@ -59,7 +59,7 @@
     "Categories": [
       "bread",
       "baking",
-      "desert"
+      "dessert"
     ]
   },
   {
@@ -94,6 +94,14 @@
     "Categories": [
       "baking",
       "bread"
+    ]
+  },
+  {
+    "Title": "Lemon Poppy Seed Scones",
+    "Slug": "lemon-poppy-seed-scones",
+    "Categories": [
+      "baking",
+      "dessert"
     ]
   },
   {
@@ -136,8 +144,17 @@
     "Title": "Sour Cream Raisin Squares",
     "Slug": "sour-cream-raisin-squares",
     "Categories": [
-      "deserts",
+      "dessert",
       "bars"
+    ]
+  },
+  {
+    "Title": "Spaetzle",
+    "Slug": "spaetzle",
+    "Categories": [
+      "german",
+      "dumpling",
+      "side"
     ]
   },
   {
