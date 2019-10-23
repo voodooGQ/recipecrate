@@ -97,12 +97,29 @@
     ]
   },
   {
+    "Title": "Parsley Potatoes",
+    "Slug": "parsley-potatoes",
+    "Categories": [
+      "german",
+      "potatoes",
+      "side"
+    ]
+  },
+  {
     "Title": "Jaeger Sauce",
     "Slug": "jaeger-sauce",
     "Categories": [
       "german",
       "sauce",
       "mushroom"
+    ]
+  },
+  {
+    "Title": "Schweineschnitzel",
+    "Slug": "schweineschnitzel",
+    "Categories": [
+      "german",
+      "pork"
     ]
   },
   {
@@ -121,6 +138,14 @@
     "Categories": [
       "deserts",
       "bars"
+    ]
+  },
+  {
+    "Title": "Stove Top Macaroni and Cheese",
+    "Slug": "stove-top-macaroni-and-cheese",
+    "Categories": [
+      "pasta",
+      "cheese"
     ]
   },
   {
