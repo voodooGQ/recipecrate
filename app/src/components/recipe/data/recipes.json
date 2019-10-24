@@ -9,6 +9,15 @@
     ]
   },
   {
+    "Title": "Bibimbap",
+    "Slug": "bibimbap",
+    "Categories": [
+      "asian",
+      "korean",
+      "rice"
+    ]
+  },
+  {
     "Title": "Blueberry Steel Cut Oats",
     "Slug": "blueberry-oats",
     "Categories": [
