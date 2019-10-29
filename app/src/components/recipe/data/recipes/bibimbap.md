@@ -1,4 +1,4 @@
-# Template
+# Bibimbap
 
 **Note: This recipe is mostly in grams as that's how I experiment with exact ratios. When I make it again I'll take note of the imperial measurements and update**
 
