@@ -17,6 +17,15 @@
     ]
   },
   {
+
+    "Title": "Belgian Waffles",
+    "Slug": "belgian-waffles",
+    "Categories": [
+      "breakfast",
+      "baking"
+    ]
+  },
+  {
     "Title": "Bibimbap",
     "Slug": "bibimbap",
     "Categories": [
