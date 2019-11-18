@@ -9,23 +9,6 @@
     ]
   },
   {
-    "Title": "Banana Bread",
-    "Slug": "banana-bread",
-    "Categories": [
-      "baking",
-      "quick-bread"
-    ]
-  },
-  {
-
-    "Title": "Belgian Waffles",
-    "Slug": "belgian-waffles",
-    "Categories": [
-      "breakfast",
-      "baking"
-    ]
-  },
-  {
     "Title": "Bibimbap",
     "Slug": "bibimbap",
     "Categories": [
@@ -120,17 +103,6 @@
       "stew",
       "beef",
       "pork"
-    ]
-  },
-  {
-    "Title": "Fried Rice",
-    "Slug": "fried-rice",
-    "Categories": [
-      "asian",
-      "rice",
-      "pork",
-      "shrimp",
-      "chicken"
     ]
   },
   {

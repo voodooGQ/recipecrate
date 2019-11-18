@@ -43,14 +43,14 @@ export default class RecipeDetail extends Component {
 
     return (
       <div className="recipe-container">
-        <div className="row image-container vr">
-          <div className="columns 12">
+        <div class="row image-container vr">
+          <div class="columns 12">
             {image && <img src={image} alt={this.props.slug} />}
           </div>
         </div>
-        <div className="row">
-          <div className="columns 12">
-            {recipe && <ReactMarkdown source={recipe.toString()} />}
+        <div class="row">
+          <div class="columns 12">
+            {recipe && <ReactMarkdown source={recipe} />}
           </div>
         </div>
       </div>
