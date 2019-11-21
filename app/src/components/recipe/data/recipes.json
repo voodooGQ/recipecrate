@@ -18,6 +18,13 @@
     ]
   },
   {
+    "Title": "Belgian Waffles",
+    "Slug": "belgian-waffles",
+    "Categories": [
+      "breakfast"
+    ]
+  },
+  {
     "Title": "Blueberry Steel Cut Oats",
     "Slug": "blueberry-oats",
     "Categories": [
