@@ -25,6 +25,14 @@
     ]
   },
   {
+    "Title": "Biscotti",
+    "Slug": "biscotti",
+    "Categories": [
+      "baking",
+      "cookies"
+    ]
+  },
+  {
     "Title": "Blueberry Steel Cut Oats",
     "Slug": "blueberry-oats",
     "Categories": [
