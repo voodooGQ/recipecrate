@@ -9,6 +9,13 @@
     ]
   },
   {
+    "Title": "Belgian Waffles",
+    "Slug": "belgian-waffles",
+    "Categories": [
+      "breakfast"
+    ]
+  },
+  {
     "Title": "Bibimbap",
     "Slug": "bibimbap",
     "Categories": [
@@ -18,10 +25,11 @@
     ]
   },
   {
-    "Title": "Belgian Waffles",
-    "Slug": "belgian-waffles",
+    "Title": "Biscotti",
+    "Slug": "biscotti",
     "Categories": [
-      "breakfast"
+      "baking",
+      "cookies"
     ]
   },
   {
@@ -88,6 +96,14 @@
     ]
   },
   {
+    "Title": "Egg Nog Snickerdoodles",
+    "Slug": "egg-nog-snickerdoodles",
+    "Categories": [
+      "cookies",
+      "baking"
+    ]
+  },
+  {
     "Title": "English Muffin Bread",
     "Slug": "english-muffin-bread",
     "Categories": [
@@ -121,11 +137,37 @@
     ]
   },
   {
+    "Title": "Jaeger Sauce",
+    "Slug": "jaeger-sauce",
+    "Categories": [
+      "german",
+      "sauce",
+      "mushroom"
+    ]
+  },
+  {
+    "Title": "Lemon Candy",
+    "Slug": "lemon-candy",
+    "Categories": [
+      "lemon",
+      "citrus",
+      "candy"
+    ]
+  },
+  {
     "Title": "Lemon Poppy Seed Scones",
     "Slug": "lemon-poppy-seed-scones",
     "Categories": [
       "baking",
       "dessert"
+    ]
+  },
+  {
+    "Title": "Nut Brittle",
+    "Slug": "nut-brittle",
+    "Categories": [
+      "nuts",
+      "candy"
     ]
   },
   {
@@ -138,12 +180,11 @@
     ]
   },
   {
-    "Title": "Jaeger Sauce",
-    "Slug": "jaeger-sauce",
+    "Title": "Peanut Butter Blossoms",
+    "Slug": "peanut-butter-blossoms",
     "Categories": [
-      "german",
-      "sauce",
-      "mushroom"
+      "cookie",
+      "baking"
     ]
   },
   {
