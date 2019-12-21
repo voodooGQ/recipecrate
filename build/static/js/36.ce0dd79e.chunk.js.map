@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/recipe/images/belgian-waffles.png"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/36.ce0dd79e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/belgian-waffles.569e82d4.png\";"],"sourceRoot":""}

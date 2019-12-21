@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/recipe/data/recipes/sweet-cornbread.md"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/33.08fbbf33.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/sweet-cornbread.da852a83.md\";"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+(this.webpackJsonpapp=this.webpackJsonpapp||[]).push([[10],{167:function(p,c,o){p.exports=o.p+"static/media/brown-butter-chocolate-chip-cookies.b9013cb7.md"}}]);
+//# sourceMappingURL=10.0effbde6.chunk.js.map

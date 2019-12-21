@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/recipe/images/biscotti.png"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/37.fa762ef7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/biscotti.22601b67.png\";"],"sourceRoot":""}

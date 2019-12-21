@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/recipe/data/recipes/fried-rice.md"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/20.e5cf56e9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fried-rice.458b66ab.md\";"],"sourceRoot":""}

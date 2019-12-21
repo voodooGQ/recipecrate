@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/recipe/data/recipes/lemon-candy.md"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/23.f7bc04d2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lemon-candy.829fe3cd.md\";"],"sourceRoot":""}

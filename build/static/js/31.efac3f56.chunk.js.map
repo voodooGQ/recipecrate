@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/recipe/data/recipes/spaetzle.md"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/31.efac3f56.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spaetzle.3a6ec396.md\";"],"sourceRoot":""}
