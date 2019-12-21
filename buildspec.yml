@@ -4,9 +4,8 @@ phases:
     runtime-versions:
       nodejs: 10
       python: 3.8
-  commands:
-    - npm i npm@latest -g
-    - pip install awscli
+    commands:
+      - npm i npm@latest -g
   pre_build:
     commands:
       - npm install
