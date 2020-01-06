@@ -9,6 +9,15 @@
     ]
   },
   {
+    "Title": "Basic Pasta",
+    "Slug": "basic-pasta",
+    "Categories": [
+      "italian",
+      "basics",
+      "pasta"
+    ]
+  },
+  {
     "Title": "Belgian Waffles",
     "Slug": "belgian-waffles",
     "Categories": [
@@ -66,6 +75,14 @@
       "chicken",
       "mexican",
       "slow-cooker"
+    ]
+  },
+  {
+    "Title": "Chicken Enchiladas",
+    "Slug": "chicken-enchiladas",
+    "Categories": [
+      "chicken",
+      "mexican"
     ]
   },
   {
@@ -188,6 +205,15 @@
     ]
   },
   {
+    "Title": "Sage Brown Butter Cream Sauce",
+    "Slug": "sage-brown-butter-cream-sauce",
+    "Categories": [
+      "italian",
+      "sauce",
+      "pasta"
+    ]
+  },
+  {
     "Title": "Schweineschnitzel",
     "Slug": "schweineschnitzel",
     "Categories": [
@@ -235,6 +261,15 @@
     "Slug": "sweet-cornbread",
     "Categories": [
       "baking"
+    ]
+  },
+  {
+    "Title": "Three Cheese Ravioli",
+    "Slug": "three-cheese-ravioli",
+    "Categories": [
+      "italian",
+      "pasta",
+      "cheese"
     ]
   },
   {
